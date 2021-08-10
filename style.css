@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(255, 255, 255);
+    }
+
+section ul {
+    color: orange;
+    list-style-type: square;
+}
+
+table {
+    background: #ad854c;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+    font-size: 35px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.borders {
+border: 3px solid rgb(0, 0, 0)
+}
+
+section p {
+    color: #8c714c;
+    text-align: left;
+}
+
+footer h2 {
+    color: black;
+    background: #ff9400
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+.color {
+    color: #d98004;
+}
+
+nav {
+    text-align: center;
+}
+
+#menulineup {
+    padding: 0;
+    width: 100%;
+    border-top: 5px solid #000000; /*Color de la línea superior*/
+    background: transparent;
+    }
+    
+    #menulineup ul{
+    margin:0;
+    margin-left: 40px; /*Margen izquierdo entre la primera pestaña y el borde*/
+    padding: 0;
+    list-style: none;
+    display:inline-block;
+    }
+    
+    #menulineup li{
+    display: inline;
+    margin: 0 2px 0 0;
+    padding: 0;
+    text-transform:uppercase;
+    }
+    
+    #menulineup a{
+    float: left;
+    display: block;
+    font: bold 18px Arial;
+    color: black;
+    text-decoration: none;
+    margin: 0 1px 0 0; /*Margen entre cada pestaña*/
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(172, 114, 39); /*Color de las pestañas*/
+    border-bottom: 8px solid rgb(243, 188, 117);
+    }
+    
+    #menulineup a:hover{
+    background-color: #e2bb89; /*Color de las pestañas al pasar el cursor*/
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-bottom-color: #000000; /*Color del borde inferior al pasar el cursor*/
+    color: white;
+    }
+

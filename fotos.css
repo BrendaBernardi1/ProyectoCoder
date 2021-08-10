@@ -1,0 +1,105 @@
+#menulineup {
+    padding: 0;
+    width: 100%;
+    border-top: 5px solid #000000; /*Color de la línea superior*/
+    background: transparent;
+    }
+    
+    #menulineup ul{
+    margin:0;
+    margin-left: 40px; /*Margen izquierdo entre la primera pestaña y el borde*/
+    padding: 0;
+    list-style: none;
+    display:inline-block;
+    }
+    
+    #menulineup li{
+    display: inline;
+    margin: 0 2px 0 0;
+    padding: 0;
+    text-transform:uppercase;
+    }
+    
+    #menulineup a{
+    float: left;
+    display: block;
+    font: bold 18px Arial;
+    color: black;
+    text-decoration: none;
+    margin: 0 1px 0 0; /*Margen entre cada pestaña*/
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(172, 114, 39); /*Color de las pestañas*/
+    border-bottom: 8px solid rgb(243, 188, 117);
+    }
+    
+    #menulineup a:hover{
+    background-color: #e2bb89; /*Color de las pestañas al pasar el cursor*/
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-bottom-color: #000000; /*Color del borde inferior al pasar el cursor*/
+    color: white;
+    }
+
+nav {
+text-align: center;
+    }
+
+body {
+   background-color: rgb(238, 226, 208);
+      }
+    
+h1 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: left;
+    font-size: 30px;
+    color: #000000;
+    }
+    
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: #000000;
+    font-size: 30px;
+ }
+    
+p {
+    color: #000000;
+    font-size: 20px;
+    }
+
+footer h2 {
+    color: rgb(0, 0, 0);
+    background: rgb(172, 114, 39)
+    }
+    
+footer h2 {
+    text-align: center;
+    font-size: 40px;
+    }
+    
+footer {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(172, 114, 39) , white);
+    }
+
+.border {
+    border-top: 2px solid #000000;
+}
+
+div {
+    text-align: center;
+}
+
+.box {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.animate__animated {
+    animation-iteration-count: infinite;
+    margin: 80px;
+    text-align: center;
+}
