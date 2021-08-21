@@ -81,8 +81,9 @@ footer {
         }
 
 fieldset {
-    text-align: left;
+    text-align: center;
     background-color:rgb(243, 188, 117);
+    border: 2px solid black;
 }
 
 legend {
