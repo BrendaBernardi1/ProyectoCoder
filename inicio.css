@@ -7,7 +7,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-style: italic;
     text-align: left;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h1 {
@@ -95,10 +95,6 @@ nav {
         color: rgb(255, 255, 255);
         text-align: center;
         }
-
-    section div img {
-        transform: translate(10px, 20px);
-    }
 
     .animate__animated {
         animation-iteration-count:inherit;

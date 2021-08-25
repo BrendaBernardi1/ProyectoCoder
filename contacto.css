@@ -87,7 +87,7 @@ fieldset {
 }
 
 legend {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -104,3 +104,14 @@ h2 {
 .box {
      margin: 80px;
     }
+
+input {
+        width: 100px; height: 30px;
+        transition: all 2s;       
+     }
+     
+input:focus {
+        width: 150px;
+        font-size: 15px;
+     }
+     
