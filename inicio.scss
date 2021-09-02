@@ -2,31 +2,6 @@ body {
     background-color: rgb(238, 226, 208);
 }
 
-
-div h1 {
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-style: italic;
-    text-align: left;
-    font-size: 30px;
-    color: #000000;
-section p {
-    color: #000000;
-    text-align: left;
-    font-size: 20px;
- }
-}
-    
-footer {
-    text-align: center;
-    background-image: linear-gradient(to bottom, rgb(172, 114, 39) , white);
-    font-size: 40px;
-    footer h2 {
-        color: rgb(0, 0, 0);
-        background: rgb(172, 114, 39) 
-        }    
-}
-
-
 nav {
     text-align: center;
 }
@@ -69,11 +44,24 @@ nav {
     }
 }    
     
-    .cuadro {
+div h1 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+    font-size: 30px;
+    color: #000000;
+section p {
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+ }
+}
+
+.cuadro {
         margin: 150px;
        }
 
-    #button {
+#button {
         background-color: rgb(243, 188, 117); /*Color de las pestañas al pasar el cursor*/
         padding-top: 5px;
         padding-bottom: 2px;
@@ -99,13 +87,13 @@ nav {
           }   
     }
 
-    .animate__animated {
+.animate__animated {
         animation-iteration-count:inherit;
     }
 
     /*Bootstrap*/
 
-    .container {
+.container {
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
@@ -113,14 +101,25 @@ nav {
         margin-left: auto;
       }
 
-      @if $theme == 'dark-mode' {
+@if $theme == 'dark-mode' {
           .body {
               background: #000000;
               text-decoration: #ffffff;
           }
-      } @else {
+      } 
+@else {
         .body {
             background: rgb(238, 226, 208);
             text-decoration: #000000;
         }
       }
+      
+footer {
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(172, 114, 39) , white);
+    font-size: 40px;
+    footer h2 {
+        color: rgb(0, 0, 0);
+        background: rgb(172, 114, 39) 
+        }    
+}
