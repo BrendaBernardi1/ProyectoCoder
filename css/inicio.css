@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(238, 226, 208);
+    background-color: rgb(238, 226, 208)
 }
 
 nav {
@@ -108,13 +108,12 @@ section p {
         margin-left: auto;
       }
       
-footer {
-    text-align: center;
-    background-image: linear-gradient(to bottom, rgb(172, 114, 39) , white);
-    font-size: 40px;
-}
-
-    footer h2 {
-        color: rgb(0, 0, 0);
-        background: rgb(172, 114, 39) 
-        }    
+      footer {
+        text-align: center;
+        background-image: linear-gradient(to bottom, rgba(169, 113, 40, 0.748) , white);
+        font-size: 40px;
+    }
+    
+        footer h2 {
+            color: rgb(0, 0, 0);
+            } 

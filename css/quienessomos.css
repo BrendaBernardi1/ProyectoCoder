@@ -57,7 +57,7 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-style: italic;
     text-align: left;
-    font-size: 45px;
+    font-size: 35px;
     color: #000000;
     } 
 
@@ -74,7 +74,6 @@ footer {
 
  footer h2 {
             color: rgb(0, 0, 0);
-            background: rgb(172, 114, 39) 
          }    
     
 
