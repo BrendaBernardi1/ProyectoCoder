@@ -2,6 +2,12 @@ body {
    background-color: rgb(238, 226, 208);
       }
     
+.contenedor {
+        width:100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
 nav {
 text-align: center;
     }

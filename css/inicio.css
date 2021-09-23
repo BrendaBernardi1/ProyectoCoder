@@ -2,6 +2,12 @@ body {
     background-color: rgb(238, 226, 208)
 }
 
+.contenedor {
+    width:100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 nav {
     text-align: center;
 }
@@ -92,6 +98,11 @@ section p {
             border-radius: 0.25rem;
             transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
           }   
+
+.imagen { 
+    float: right;
+    margin: 10px;
+}
     
 
 .animate__animated {
@@ -107,7 +118,7 @@ section p {
         margin-right: auto;
         margin-left: auto;
       }
-      
+
       footer {
         text-align: center;
         background-image: linear-gradient(to bottom, rgba(169, 113, 40, 0.748) , white);

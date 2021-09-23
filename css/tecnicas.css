@@ -1,7 +1,13 @@
 body {
    background-color: rgb(238, 226, 208);
       }
-      
+    
+.contenedor {
+        width:100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }     
+
 nav {
 text-align: center;
     }
@@ -61,13 +67,13 @@ section h2 {
     text-decoration: underline;
     }
 
-
 .border {
         border-top: 2px double #000000;
     }
 
 .box {
     margin: 80px;
+    max-width: 100%;
 }
 
 footer {
